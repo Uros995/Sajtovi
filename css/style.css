@@ -1,0 +1,359 @@
+* {
+	box-sizing: border-box;
+}
+#header {
+	display: inline-block;
+	height: 70px;
+	width: 100%;
+	max-height: 74px;
+	position: fixed;
+	z-index: 55;
+	background-color: white;
+	border-bottom: 1px solid rgba(210,210,210, 0.2);
+
+}
+#header ul li {
+	display: inline-block;
+	position: relative;
+	top: -40px;
+	padding: 0 20px;
+	float: right;
+}
+#header img, #flexblack img {
+	float: left;
+	margin-left: 10%;
+	background-attachment: fixed;
+}
+#pozadina {
+	background-image: url(http://www.pharaohlab.com/sphinx/demo/assets/img/bg/intro2.png);
+	height: 550px;
+	background-size: cover;
+	width: 100%;
+	position: relative;
+	background-position: 0px -280px;
+}
+#tekst-gornji {
+	text-align: center;
+	position: relative;
+	top: 200px;
+	font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #585858;
+
+}
+#tekst-gornji input{
+    background-color: #188ae2;
+	border: solid 1px #188ae2;
+    color: #ffffff !important;
+    width: 170px;
+    padding: 12px 35px;
+    border-radius: 4px;
+    cursor: pointer;
+} 
+#tekst-gornji input:hover {
+	background-color: #333;
+    color: #fff !important;
+    border: solid 1px #333;
+}
+#pozadinska-boja {
+	height: 550px;
+	width: 100%;
+	background-color: rgba(227, 227, 227, 0.8);
+	margin : 0;
+	position: absolute;
+}
+
+body {
+    font-size: 14px;
+  	font-family: 'Roboto', sans-serif;
+    color: #585858;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+#flexblack {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+/*	border:1px solid black;*/
+}
+.flexiblack {
+/*	border:1px solid red;*/
+	width: 33.33%;
+	background-color: #2a2a2a !important;	
+	text-align: justify;
+	padding: 30px;
+	color: white;
+
+}
+.flexiblack p {
+	font-size: 14px;
+    line-height: 25px;
+    text-align: justify;
+    display: inline-block;
+}
+.flexiblack h3 {
+	display: inline-block;
+}
+#servisi {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 100%;
+	text-align: center;
+}
+#servisi h3 {
+	font-size: 28px;
+    line-height: 35px;
+}
+#servisi h6 {
+	font-size: 14px;
+    line-height: 25px;
+}
+#flexwhite {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+/*	border:1px solid black;*/
+	height: 350px;
+}
+.flexiwhite {
+/*	border:1px solid red;*/
+	width: 33.33%;
+	background-color: white;	
+	text-align: center;
+	padding: 20px;
+	color: #585858;
+}
+.flexiwhite h3 {
+	display: block;
+	clear: left;
+}
+.flexiwhite p {
+	font-size: 14px;
+    line-height: 25px;
+}
+.flexiwhite img {
+	float: none;
+	margin-left: 5px;
+}
+#plavi {
+	margin-top: 70px;
+	background: linear-gradient(to left, #1A2980 , #26D0CE);
+	width: 100%;
+	padding: 50px 0;
+}
+.tekst-plavi {
+	width: 600px;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: inline-block;
+    margin-left: 70px;
+}
+.tekst-plavi h3 {
+	font-size: 28px;
+    line-height: 35px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.tekst-plavi p {
+	color: #fafafa;
+    font-size: 16px;
+    margin: 0 0 10px;
+    line-height: 25px;
+} 
+.input-plavi a {
+    min-height: 1px;
+    float: right;
+    display: inline-block;
+    background-color: #fff;
+    border: solid 1px #eee;
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 100px;
+    position: relative;
+    top: -70px;
+    margin-right: 60px;
+    text-decoration: none;
+    outline: none;
+}
+.input-plavi a:hover {
+	background-color: #333;
+    color: #fff !important;
+    border: solid 1px #333;
+}
+
+#projekti {
+	width: 100%;
+	text-align: center;
+	padding-top: : 50px;
+	background-color: #f8f8f8;
+	height: 1200px;/*------------------------------PODESI U MEDIA*/
+
+}
+#lista ul li {
+	margin-top: 100px;
+	text-align: center;
+	float: none;
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 10px;
+	font-size: 14px;
+	cursor: pointer;
+	font-weight: bold;
+}
+#lista ul li a {
+	text-decoration: none;
+	color: #9d9d9d;
+}
+#lista ul li a:hover {
+	color: black;
+}
+#flexprojekti {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+/*	border:1px solid black;*/
+}
+#tekst-projekti h3 h6{
+	width: 100%;
+	color: #585858;
+	text-align: center;
+}
+.flexiprojekti {
+/*	border:1px solid red;*/
+	width: 33.33%;
+	text-align: center;
+	color: white;
+	height: 33.33%;
+}
+.flexiprojekti img {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+#tekst-ljudi, #pricing {
+	width: 100%;
+	color: #585858;
+	text-align: center;
+}
+#tekst-ljudi, #pricing h3 {
+	font-size: 28px;
+    line-height: 35px;
+}
+#tekst-ljudi, #pricing h6 {
+	font-size: 14px;
+    line-height: 25px;
+}
+#flexljudi {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: center;
+	margin: 0 auto;
+	padding: 0;
+}
+.flexiljudi {
+	width: 25%;
+	text-align: center;
+/*	border:1px solid red;*/
+	margin: 0 auto;
+	padding: 0;
+}
+.flexiljudi img {
+	border-radius: 50%;
+	margin: 0 auto;
+	padding: 0;
+	float: none;
+}
+.flexiljudi h5{
+	    font-size: 18px;
+}
+.flexiljudi h6 {
+	font-size: 11px;
+    color: #a3a2a2;
+}
+#flexqwertz {
+	margin-top: 110px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+/*	border: 1px solid black;*/
+	background-color: #f8f8f8;
+	padding: 50px 15px;
+}
+.flexiqwertz {
+	text-align: center;
+	width: 25%;
+	margin: 0 auto;
+	padding: 0;
+}
+.flexiqwertz img {
+	margin: 0 auto;
+	padding: 0;
+	float: none;
+}
+#flexpricing {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 500px;
+/*	border: 1px solid black;*/
+}
+.flexipricing {
+	width: 100%;
+	height: 100%;
+/*	border: 1px solid red;*/
+	flex: 1;
+}
+#grow {
+	flex-grow: 3.4; 
+	display: flex;
+
+}
+#flexregular {
+	flex-direction: row;
+	display: inline-flex;
+}
+#flexiregular2, #profesional, #advance, #flex50dolara, #flex70dolara, #flex99dolara {
+	display: inline-block;
+/*	border: 1px solid green;*/
+	text-align: center;
+	width: 100%;
+}
+#flexdolari {
+	flex-direction: row;
+	display: inline-flex;
+	width: 100%;
+
+
+}
+#flexdolari h2, #flexdolari p {
+	display: inline;
+	padding: 2px;
+}
+#flexdolari h2 {
+	font-size: 3.2em;
+}
+.listadonja {
+	width: 100%;
+}
+.listadonja ul {
+	float: left;
+	list-style-type: none;
+	height: 100%;
+	margin: 0;
+	padding: 40px 25px;
+	padding-left: 65px;
+}
+.listadonja ul li {
+	padding: 5px 0px;
+}
